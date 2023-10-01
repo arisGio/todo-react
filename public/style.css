@@ -1,0 +1,53 @@
+body {
+  background: #5d89cc;
+}
+.app {
+  padding: 30px;
+}
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 14px;
+}
+.singleTodoItem {
+  font-family: "Arial";
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+.singleTodoItem.completed {
+  text-decoration: line-through;
+  color: green;
+}
+.todoText {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.itemInput {
+  width: 250px;
+}
+.addItemButton {
+  float: right;
+}
+.markCompleteTodoItem,
+.removeTodoItem {
+  background: #f44336;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+.markCompleteTodoItem:hover,
+.removeTodoItem:hover {
+  background: #c62828;
+}
